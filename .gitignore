@@ -1,0 +1,44 @@
+# OS X
+.DS_Store
+
+# Xcode
+build/
+.build/
+#*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+#xcuserdata/
+#*.xccheckout
+profile
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+
+# Bundler
+.bundle
+
+# Framework
+*.framework
+*.xcframework
+
+# Cocoapods
+Pods 
+Pods/
+Pods/*
+Podfile.lock
+
+# Xcode Patch
+#*.xcodeproj
+#*.xcodeproj/*
+#*.xcodeproj/project.pbxproj
+#*.xcodeproj/xcshareddata/
+#*.xcworkspace/contents.xcworkspacedata
+#*.xcworkspace
+#*.xcworkspace/*
+#*.gcno
